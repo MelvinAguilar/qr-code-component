@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+/* Reset */
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+html {
+  font-size: 15px;
+  color: red;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background: hsl(212deg, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  color: hsl(218deg, 44%, 22%);
+}
+
+/* Layout */
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Components */
+.attribution {
+  margin-bottom: 0.5rem;
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.attribution a {
+  color: hsl(218deg, 44%, 22%);
+}
+.attribution a:hover {
+  color: hsl(220deg, 15%, 55%);
+}
+
+.card {
+  background: hsl(0deg, 0%, 100%);
+  box-shadow: 0 1px 3px rgba(31, 50, 81, 0.12), 0 1px 2px rgba(31, 50, 81, 0.24);
+  color: hsl(218deg, 44%, 22%);
+  margin: 0 0.7rem;
+  border-radius: 1.4rem;
+  transition: all 0.3s ease-in-out;
+  flex-wrap: wrap;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.card.card-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card.card-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card .card-image {
+  flex: 1 0 250px;
+}
+.card .card-content {
+  flex: 1 0 176px;
+  text-align: center;
+}
+.card .card-title {
+  margin: 1.3rem 0 0.77rem 0;
+}
+.card:hover {
+  box-shadow: 0 14px 28px rgba(31, 50, 81, 0.25), 0 10px 10px rgba(31, 50, 81, 0.22);
+}
+.card.card-small {
+  max-width: 21.4rem;
+  padding: 0.95rem 1.1rem;
+}
+.card p {
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  max-width: 18rem;
+  margin: 0 auto;
+  color: hsl(220deg, 15%, 55%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 1.2rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.02rem;
+}
+
+/*# sourceMappingURL=style.css.map */

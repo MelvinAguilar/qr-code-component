@@ -1,0 +1,16 @@
+.attribution {
+    margin-bottom: 0.5rem;
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    a {
+        color: $theme-dark-blue-color;
+
+        &:hover {
+            color: $theme-grayish-color;
+        }
+    }
+}

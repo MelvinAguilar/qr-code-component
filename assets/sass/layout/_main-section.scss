@@ -1,0 +1,4 @@
+main {
+    @include size(100%, 100vh);
+    @include flex(column, center, center);
+}

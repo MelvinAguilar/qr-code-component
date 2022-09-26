@@ -1,0 +1,24 @@
+@mixin flex ($direction: column, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@mixin size ($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+// Media query
+@mixin query ($breakpoint, $direction: min-width) {
+    @media screen and ($direction: $breakpoint) {
+        @content;
+    }
+}

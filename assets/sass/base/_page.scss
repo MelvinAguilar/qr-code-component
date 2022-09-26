@@ -1,0 +1,13 @@
+html {
+    font-size: 15px;
+    color: red;
+}
+
+body {
+    width: 100%;
+    
+    margin: 0 auto;
+    background: $theme-background-color;
+    font-family: $theme-text-font;
+    color: $theme-dark-blue-color;
+}

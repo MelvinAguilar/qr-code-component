@@ -1,0 +1,55 @@
+.card {
+    background: $theme-background-color-alt;
+    box-shadow: $theme-box-shadow;
+    color: $theme-dark-blue-color;
+
+    margin: 0 0.7rem;
+    border-radius: 1.4rem;
+    transition: all 0.3s ease-in-out;
+
+    img {
+        @include img-fluid;
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+
+    flex-wrap: wrap;
+    &.card-col {
+        @include flex(row);
+    }
+
+    &.card-row {
+        @include flex(column);
+    }
+
+    .card-image {
+        flex: 1 0 250px;
+    }
+
+    .card-content {
+        flex: 1 0 176px;
+        text-align: center;
+    }
+
+    .card-title {
+        margin: 1.3rem 0 0.77rem 0;
+    }
+
+    &:hover {
+        box-shadow: $theme-box-shadow-hover;
+    }
+
+    &.card-small {
+        max-width: 21.4rem;
+        padding: 0.95rem 1.1rem;
+    }
+
+    p {
+        font-size: 1rem;
+        letter-spacing: 0.2px;
+        max-width: 18rem;
+        margin: 0 auto;
+
+        color: $theme-grayish-color;
+    }
+}
