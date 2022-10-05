@@ -1,12 +1,12 @@
 html {
-    font-size: 15px;
-    color: red;
+    font-size: 0.938rem;
 }
 
 body {
     width: 100%;
+    min-height: 100vh;
+    @include flex(column, center, center);
     
-    margin: 0 auto;
     background: $theme-background-color;
     font-family: $theme-text-font;
     color: $theme-dark-blue-color;

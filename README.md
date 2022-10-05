@@ -4,6 +4,11 @@
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+<h2 align="center">Links</h2>
+
+- Solution URL: [QR Code Component (SASS + Flexbox) | Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-sass-flexbox-w20ntizjJs)
+- Live Site URL: [https://qr-code-component-hdz.vercel.app/](https://qr-code-component-hdz.vercel.app/)
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -14,11 +19,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-## Overview
-
-### Screenshot
-
-![](./design/screenshot.png)
 
 ## My process
 

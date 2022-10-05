@@ -22,3 +22,15 @@
         @content;
     }
 }
+
+@mixin media-double-breakpoint-up ($break_min, $dir_min: min-width, $break_max, $dir_max: max-width) {
+    @media screen and ($dir_min: $break_min) and ($dir_max: $break_max) {
+        @content;
+    }
+}
+
+@mixin media-hover-effect () {
+    @media (hover: hover) {
+        @content;
+    }
+}
