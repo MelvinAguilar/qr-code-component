@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;900&display=swap');
 
 // Font Family
 $theme-text-font: "Outfit", sans-serif;
@@ -20,5 +20,7 @@ $screen-xl: 1200px; // Desktops
 $screen-xxl: 1400px; // Large desktops
 
 // Border shadow
-$theme-box-shadow: 0 1px 3px rgba($theme-dark-blue-color, 0.12), 0 1px 2px rgba($theme-dark-blue-color, 0.24);
-$theme-box-shadow-hover: 0 14px 28px rgba($theme-dark-blue-color, 0.25), 0 10px 10px rgba($theme-dark-blue-color, 0.22);
+$theme-box-shadow: 0 0.063rem 0.188rem rgba($theme-dark-blue-color, 0.12),
+    0 0.063rem 0.125rem rgba($theme-dark-blue-color, 0.24);
+$theme-box-shadow-hover: 0 0.875rem 1.75rem rgba($theme-dark-blue-color, 0.25), 
+    0 0.625rem 0.625rem rgba($theme-dark-blue-color, 0.22);

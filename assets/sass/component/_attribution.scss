@@ -17,5 +17,9 @@
         & a:hover  {
             color: $theme-grayish-color;
         }
+
+        & a:focus-visible {
+            outline: $theme-dark-blue-color dotted 0.188rem;
+        }
     }
 }

@@ -1,11 +1,7 @@
-html {
-    font-size: 0.938rem;
-}
-
 body {
-    width: 100%;
+    font-size: 0.938rem;
     min-height: 100vh;
-    @include flex(column, center, center);
+    @include flex(column);
     
     background: $theme-background-color;
     font-family: $theme-text-font;
