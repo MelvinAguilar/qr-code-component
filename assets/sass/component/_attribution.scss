@@ -7,7 +7,7 @@
         color: $theme-dark-blue-color;
     }
 
-    @include media-double-breakpoint-up($screen-sm, min-width, 640px, min-height) {
+    @include media-double-breakpoint-up($screen-sm, min-width, 40em, min-height) {
         position: fixed;
         bottom: 0.325rem;
         width: 100%;

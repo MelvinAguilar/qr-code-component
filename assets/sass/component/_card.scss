@@ -3,7 +3,6 @@
     box-shadow: $theme-box-shadow;
     color: $theme-dark-blue-color;
 
-    margin: 0.7rem;
     border-radius: 1.4rem;
     transition: all 0.3s ease-in-out;
 
@@ -22,14 +21,13 @@
     &__description {
         font-size: 1rem;
         letter-spacing: 0.013rem;
-        margin: 0 0.6rem;
+        margin: 0 0.6rem 1.832rem;
 
         color: $theme-grayish-color;
     }
 
     &--small {
         max-width: 21.4rem;
-        min-height: 33rem;
         padding: 0.95rem 1.1rem;
     }
 

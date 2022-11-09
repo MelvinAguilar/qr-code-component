@@ -13,11 +13,11 @@ $theme-dark-blue-color: hsl(218, 44%, 22%);
 $theme-line-height: 1.9rem;
 
 // Breakpoints
-$screen-sm: 576px; // Large smartphones
-$screen-md: 768px; // Small tablets
-$screen-lg: 992px; // Tablets
-$screen-xl: 1200px; // Desktops
-$screen-xxl: 1400px; // Large desktops
+$screen-sm: 36em;       //576px Large smartphones
+$screen-md: 48em;       //768px Small tablets
+$screen-lg: 62em;       //992px Tablets
+$screen-xl: 75em;       //1200px Desktops
+$screen-xxl: 87.5em;    //1400px Large desktops
 
 // Border shadow
 $theme-box-shadow: 0 0.063rem 0.188rem rgba($theme-dark-blue-color, 0.12),
